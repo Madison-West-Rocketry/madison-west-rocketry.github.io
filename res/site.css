@@ -1,6 +1,6 @@
 @keyframes loadin {
     from {
-        padding-top: 100px;
+        padding-top: 25%;
         opacity: 0;
     }
     to {
@@ -19,12 +19,12 @@
     font-variation-settings:
         "width" 100;
     animation-name: loadin;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000);
 }
 
 body {
-    background-color: #202020;
+    background-color: #20202a;
 }
 
 h1 {
@@ -32,14 +32,16 @@ h1 {
     font-style: italic;
 }
 
+h2 {
+    font-weight: 700;
+}
+
 h3 {
     font-weight: 600;
-    font-style: italic;
 }
 
 h4 {
     font-weight: 300;
-    font-style: italic;
 }
 
 ul {
